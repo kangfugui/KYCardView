@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF024C541C5209F30092D2C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF024C531C5209F30092D2C9 /* AppDelegate.swift */; };
+		CF024C561C5209F30092D2C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF024C551C5209F30092D2C9 /* ViewController.swift */; };
+		CF024C591C5209F30092D2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF024C571C5209F30092D2C9 /* Main.storyboard */; };
+		CF024C5B1C5209F30092D2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF024C5A1C5209F30092D2C9 /* Assets.xcassets */; };
+		CF024C5E1C5209F30092D2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF024C5C1C5209F30092D2C9 /* LaunchScreen.storyboard */; };
+		CF024C671C520B180092D2C9 /* KYCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF024C661C520B180092D2C9 /* KYCardView.swift */; };
+		CF024C691C52300A0092D2C9 /* KYCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF024C681C52300A0092D2C9 /* KYCardItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF024C501C5209F30092D2C9 /* KYCardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYCardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF024C531C5209F30092D2C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF024C551C5209F30092D2C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF024C581C5209F30092D2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF024C5A1C5209F30092D2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF024C5D1C5209F30092D2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF024C5F1C5209F30092D2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF024C661C520B180092D2C9 /* KYCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCardView.swift; sourceTree = "<group>"; };
+		CF024C681C52300A0092D2C9 /* KYCardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCardItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF024C4D1C5209F30092D2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF024C471C5209F30092D2C9 = {
+			isa = PBXGroup;
+			children = (
+				CF024C521C5209F30092D2C9 /* KYCardViewDemo */,
+				CF024C511C5209F30092D2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF024C511C5209F30092D2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF024C501C5209F30092D2C9 /* KYCardViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF024C521C5209F30092D2C9 /* KYCardViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF024C651C520B0A0092D2C9 /* KYCardView */,
+				CF024C531C5209F30092D2C9 /* AppDelegate.swift */,
+				CF024C551C5209F30092D2C9 /* ViewController.swift */,
+				CF024C571C5209F30092D2C9 /* Main.storyboard */,
+				CF024C5A1C5209F30092D2C9 /* Assets.xcassets */,
+				CF024C5C1C5209F30092D2C9 /* LaunchScreen.storyboard */,
+				CF024C5F1C5209F30092D2C9 /* Info.plist */,
+			);
+			path = KYCardViewDemo;
+			sourceTree = "<group>";
+		};
+		CF024C651C520B0A0092D2C9 /* KYCardView */ = {
+			isa = PBXGroup;
+			children = (
+				CF024C661C520B180092D2C9 /* KYCardView.swift */,
+				CF024C681C52300A0092D2C9 /* KYCardItem.swift */,
+			);
+			path = KYCardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF024C4F1C5209F30092D2C9 /* KYCardViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF024C621C5209F30092D2C9 /* Build configuration list for PBXNativeTarget "KYCardViewDemo" */;
+			buildPhases = (
+				CF024C4C1C5209F30092D2C9 /* Sources */,
+				CF024C4D1C5209F30092D2C9 /* Frameworks */,
+				CF024C4E1C5209F30092D2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYCardViewDemo;
+			productName = KYCardViewDemo;
+			productReference = CF024C501C5209F30092D2C9 /* KYCardViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF024C481C5209F30092D2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KangYang;
+				TargetAttributes = {
+					CF024C4F1C5209F30092D2C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CF024C4B1C5209F30092D2C9 /* Build configuration list for PBXProject "KYCardViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF024C471C5209F30092D2C9;
+			productRefGroup = CF024C511C5209F30092D2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF024C4F1C5209F30092D2C9 /* KYCardViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF024C4E1C5209F30092D2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF024C5E1C5209F30092D2C9 /* LaunchScreen.storyboard in Resources */,
+				CF024C5B1C5209F30092D2C9 /* Assets.xcassets in Resources */,
+				CF024C591C5209F30092D2C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF024C4C1C5209F30092D2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF024C691C52300A0092D2C9 /* KYCardItem.swift in Sources */,
+				CF024C561C5209F30092D2C9 /* ViewController.swift in Sources */,
+				CF024C541C5209F30092D2C9 /* AppDelegate.swift in Sources */,
+				CF024C671C520B180092D2C9 /* KYCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF024C571C5209F30092D2C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF024C581C5209F30092D2C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF024C5C1C5209F30092D2C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF024C5D1C5209F30092D2C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF024C601C5209F30092D2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF024C611C5209F30092D2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF024C631C5209F30092D2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYCardViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYCardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF024C641C5209F30092D2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYCardViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYCardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF024C4B1C5209F30092D2C9 /* Build configuration list for PBXProject "KYCardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF024C601C5209F30092D2C9 /* Debug */,
+				CF024C611C5209F30092D2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF024C621C5209F30092D2C9 /* Build configuration list for PBXNativeTarget "KYCardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF024C631C5209F30092D2C9 /* Debug */,
+				CF024C641C5209F30092D2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF024C481C5209F30092D2C9 /* Project object */;
+}
